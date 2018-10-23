@@ -24,7 +24,7 @@ if(process.env.DB_HOST) {
         res.render("posts/index" , {posts:posts});
       })
   });
-
+}
 
 app.get('/fibonacci/:n' , function(req,res){
 
